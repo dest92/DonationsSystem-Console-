@@ -50,12 +50,22 @@ namespace DonacionesBackend.Controladores
         }
 
 
-        public static void AgregarDonacion(ObjectId idcliente, double montoDonado)
+        public static void AgregarDonacion()
         {
 
-            var donante = Database.Donantes.FindOne(x => x.Id == idcliente);
+            Console.WriteLine("Ingrese el id del donante");
+            Console.ForegroundColor = ConsoleColor.Red;
+            ListarDonantes();
+            Console.ForegroundColor = ConsoleColor.White;
+            string idcliente = Console.ReadLine();
+            
+            var donante = Database.Donantes.FindOne(x => x.Id == new ObjectId(idcliente));
             if (donante == null)
                 throw new Exception("No se encontro el donante");
+
+        
+            Console.WriteLine("Ingrese el monto donado");
+            double montoDonado = Convert.ToDouble(Console.ReadLine());
 
             if (montoDonado <= 0)
                 throw new Exception("El monto donado debe ser mayor a 0");

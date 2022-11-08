@@ -3,3 +3,15 @@ E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\ne
 E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.AssemblyInfoInputs.cache
 E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.AssemblyInfo.cs
 E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.csproj.CoreCompileInputs.cache
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\bin\Debug\net6.0\DonacionesPractica.exe
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\bin\Debug\net6.0\DonacionesPractica.deps.json
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\bin\Debug\net6.0\DonacionesPractica.runtimeconfig.json
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\bin\Debug\net6.0\DonacionesPractica.dll
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\bin\Debug\net6.0\DonacionesPractica.pdb
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\bin\Debug\net6.0\LiteDB.dll
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.csproj.CopyComplete
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.dll
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\refint\DonacionesPractica.dll
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.pdb
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.genruntimeconfig.cache
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\ref\DonacionesPractica.dll
