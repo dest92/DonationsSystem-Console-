@@ -27,7 +27,11 @@ namespace DonacionesBackend.Controladores
                 Apellido = apellido,
                 MontoDonado = montoDonado
             };
+
+            
             Database.Donantes.Insert(donante);
+
+            
         }
 
 
@@ -85,7 +89,7 @@ namespace DonacionesBackend.Controladores
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"Nombre: {donante.Nombre}");
                 Console.WriteLine($"Apellido: {donante.Apellido}");
-                Console.WriteLine($"Monto Donado: {donante.MontoDonado}");
+                Console.WriteLine($"Monto Donado: ${donante.MontoDonado}");
                 Console.WriteLine();
             }
         }
