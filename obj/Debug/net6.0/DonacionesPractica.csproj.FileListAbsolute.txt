@@ -1,0 +1,5 @@
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.csproj.AssemblyReference.cache
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.AssemblyInfoInputs.cache
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.AssemblyInfo.cs
+E:\Cursos\C#\PROG 2\parciales\Practica parcial 2\DonacionesPractica\obj\Debug\net6.0\DonacionesPractica.csproj.CoreCompileInputs.cache

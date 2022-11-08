@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QrhavoPBtw1UNRxaTjVIxJZ1oJBSEeMBALizOrAMF9dQK7H5F3+GWQ3lYnZJbUjkcWM3BkJbFyBvod5uZdGxrQ==",
+  "success": true,
+  "projectFilePath": "E:\\Cursos\\C#\\PROG 2\\parciales\\Practica parcial 2\\DonacionesPractica\\DonacionesPractica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mati\\.nuget\\packages\\litedb\\5.0.12\\litedb.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
