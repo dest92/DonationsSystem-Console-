@@ -10,6 +10,7 @@ namespace DonacionesBackend.Modelos
         public string Titulo { get; set; }
         public string Descripcion { get; set; }
         public double MontoRequerido { get; set; }
+        public double MontoDonado { get; set; }
 
         //Guardar foto del proyecto
         public byte[] Foto { get; set; }

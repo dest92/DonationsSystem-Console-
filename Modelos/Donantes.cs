@@ -8,8 +8,7 @@ namespace DonacionesBackend.Modelos
         public ObjectId Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-
-        public double MontoDonado { get; set; }
+        public List<Donaciones> Donaciones { get; set; }
     }
 
 }
