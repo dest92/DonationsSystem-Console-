@@ -16,22 +16,20 @@ namespace DonacionesBackend.Controladores
             string nombre = Console.ReadLine();
             Console.WriteLine("Ingrese el apellido del donante");
             string apellido = Console.ReadLine();
-            Console.WriteLine("Ingrese el monto donado");
-            double montoDonado = Convert.ToDouble(Console.ReadLine()); 
-
+           
 
             var donante = new Donantes
             {
                 Id = ObjectId.NewObjectId(),
                 Nombre = nombre,
                 Apellido = apellido,
-                MontoDonado = montoDonado
+                
             };
 
-            
+
             Database.Donantes.Insert(donante);
 
-            
+
         }
 
 
@@ -44,8 +42,8 @@ namespace DonacionesBackend.Controladores
             Console.ForegroundColor = ConsoleColor.White;
             string idcliente = Console.ReadLine();
 
-            
-            
+
+
             var donante = Database.Donantes.FindOne(x => x.Id == new ObjectId(idcliente));
             if (donante == null)
                 throw new Exception("No se encontro el donante");
@@ -62,12 +60,12 @@ namespace DonacionesBackend.Controladores
             ListarDonantes();
             Console.ForegroundColor = ConsoleColor.White;
             string idcliente = Console.ReadLine();
-            
+
             var donante = Database.Donantes.FindOne(x => x.Id == new ObjectId(idcliente));
             if (donante == null)
                 throw new Exception("No se encontro el donante");
 
-        
+
             Console.WriteLine("Ingrese el monto donado");
             double montoDonado = Convert.ToDouble(Console.ReadLine());
 
@@ -81,7 +79,7 @@ namespace DonacionesBackend.Controladores
         public static void ListarDonantes()
         {
             var donantes = Database.Donantes.FindAll().ToList();
-                     
+
             foreach (var donante in donantes)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
